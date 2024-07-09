@@ -1,3 +1,25 @@
+"""Best Time to Buy and Sell Stock
+You are given an array
+stock on the
+ith
+prices
+where
+prices[i]
+Easy
+is the price of a given
+day.
+You want to maximize your profit by choosing a single day to buy one
+stock and choosing a different day in the future to sell that stock.
+Return the maximum profit you can achieve from this transaction.
+If you cannot achieve any profit, return
+Practice
+0
+
+
+"""
+
+
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
