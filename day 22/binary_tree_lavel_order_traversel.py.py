@@ -1,3 +1,5 @@
+
+
 # Binary Tree Level Order Traversal
 # Medium
 # Given the root of a binary tree, return the level order traversal
@@ -49,5 +51,6 @@ root.right = TreeNode(3)
 root.left.left = TreeNode(4)
 root.left.right = TreeNode(5)
 
-# Calling the function
-print(level_order(root))  # Output: [[1], [2, 3], [4, 5]]
+
+print(level_order(root))  
+# Output: [[1], [2, 3], [4, 5]]
